@@ -8,7 +8,7 @@ function ScrollMenu()
         this.projectsText();
 window.addEventListener("scroll", () => {
     let scroll = window.pageYOffset || document.documentElement.scrollaboutMeText;
-    if (scroll >= 60) {
+    if (scroll >= 100 ) {
     document.querySelector(".aboutMeText").classList.add("aboutMeText--scrolling");
     }
     else {
@@ -23,7 +23,7 @@ window.addEventListener("scroll", () => {
         window.addEventListener("scroll", () => {
             let scroll = window.pageYOffset || document.documentElement.scrollprojectsText;
 
-     if(scroll >=110)
+     if(scroll >=140)
         {
             document.querySelector(".projectsText").classList.add("projectsText--scrolling");
         } 

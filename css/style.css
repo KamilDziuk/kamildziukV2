@@ -1,18 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
 *
 { 
   
     margin: 0;
     padding: 0;
+    z-index: 3;
 }
 html,
 body{
     
 color:#ffffff;
-/* background-color:linear-gradient(#000,#01091b,#001236,#011b50,#012265,#012265,#012265,#012265); */
+
 background-color: rgb(5, 5, 55);
-font-family: 'Courier New', monospace;
+font-family: JetBrains Mono, monospace;
 
 }
+
+
 /* light Reflections start */
 .lightReflections {
   
@@ -23,7 +27,7 @@ font-family: 'Courier New', monospace;
     aspect-ratio:1;
     width:calc( 150% * var(--size) );
     
-    background: linear-gradient(259.53deg, #000000 6.53%, #067fff 95.34%);
+    background: linear-gradient(259.53deg, #000000 20%, #067fff 60%, #d509c8 10%,#8002ff 10% );
     filter:blur( 10vw );
     
     border-radius:50%;
@@ -37,6 +41,7 @@ font-family: 'Courier New', monospace;
     transform-origin: 50% 50%;
     
     opacity:0.6;
+   
   }
   
   @keyframes loop {
@@ -60,7 +65,7 @@ font-family: 'Courier New', monospace;
     85% { transform: translate3D( 21%, 92%, 0 ) rotate(306deg); }
     90% { transform: translate3D( 3%, 79%, 0 ) rotate(324deg); }
     100% { transform: translate3D( 0%, 51%, 0 ) rotate(360deg); }
-  
+
   }
 
   
@@ -104,10 +109,26 @@ padding-bottom:0;
 }
 h3
 {
-font-size: 20px;   
+  display: flex;
+font-size: 17px;   
 padding-top: 5%;
 }
 
+/* console Log start */
+.consoleLog
+{
+  
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(255, 255, 255);
+}
+
+
+
+/* console Log end */
 /* head section end */
 
 
@@ -119,6 +140,19 @@ right: 10%;
 top: 20%;
 width: 40%;
 text-align: right;
+z-index: 3;
+}
+
+#certificatesPosition
+
+{
+  position: absolute;
+  top: 5000px;
+}
+
+.aboutMeTextHead
+{
+  font-size: 20px !important; 
 
 }
 /* about me section end */
@@ -134,17 +168,50 @@ width: 40%;
 text-align: right;
 }
  /* icone start */
-.fa
+.fa-github
 {
   position: absolute;
   top: 20%;
   right: 10%;
 }
 
-.fa-window-restore
+.fa-picture-o
 {
-
+  position: absolute;
+  top: 20%;
   right: 55%; 
+}
+
+.fa-globe
+{
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+
+
+.bi-github
+{
+  
+  position: absolute;
+left: 15%;
+}
+/* me image  start */
+
+/* me image  end */
+.bi-linkedin
+{
+  
+  position: absolute;
+
+}
+
+
+.bi
+{
+padding-top: 7%;
+width: 34px;
+height: 34px;
 }
 
  /* icone end */
@@ -198,10 +265,216 @@ top: 850px;
 width: 500px;
 opacity: 0.7;
 }
+
+.blockImage2
+{
+  
+  position: absolute;
+  left: 190%;
+  top: 1397px; 
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
+  backdrop-filter: blur(4px);
+  border-style: none;
+
+}
+
+.portfolioImage2
+{
+position: absolute;
+
+right: -100%;
+
+top: 1200px; 
+width: 500px;
+opacity: 0.7;
+}
+
+.blockImage3
+{
+  
+  position: absolute;
+  left: 190%;
+  top: 1749px; 
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
+  backdrop-filter: blur(4px);
+  border-style: none;
+
+}
+
+.portfolioImage3
+{
+position: absolute;
+
+right: -100%;
+top: 1550px; 
+width: 500px;
+opacity: 0.7;
+}
+
+.blockImage4
+{
+  
+  position: absolute;
+  left: 190%;
+  top: 2098px; 
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
+  backdrop-filter: blur(4px);
+  border-style: none;
+
+}
+
+.portfolioImage4
+{
+position: absolute;
+
+right: -100%;
+top: 1901px; 
+width: 500px;
+opacity: 0.7;
+}
+
+.blockImage5
+{
+  
+  position: absolute;
+  left: 190%;
+  top: 2452px; 
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
+  backdrop-filter: blur(4px);
+  border-style: none;
+
+}
+
+.portfolioImage5
+{
+position: absolute;
+
+right: -100%;
+top: 2251px; 
+width: 500px;
+opacity: 0.7;
+}
+
+
 /* portfolio section end */
 
+/* link  start */
+a
+{
+color: #ffffff;
+text-decoration: none;
+}
+/* link end */
 
-.portfolioImage0:hover, .portfolioImage1:hover 
+.portfolioImage0:hover, .portfolioImage1:hover,.portfolioImage2:hover,.portfolioImage3:hover ,.portfolioImage4:hover, .portfolioImage5:hover
+{
+  
+opacity: 1;
+}
+
+
+
+/* certificates section start */
+#certificates
+{
+
+position: absolute; 
+top: 40%; 
+left: 10%;
+width: 40%;
+text-align: right;
+}
+
+
+
+.certificatesImage0
+{
+  
+  position: absolute;
+
+right: -100%;
+top: 2351px; 
+width: 500px;
+
+opacity: 0.7;
+}
+.blockImage6
+{
+
+  position: absolute;
+  left: 190%;
+  top: 2550px; 
+  width: 100px;
+  height: 40px;
+ 
+  background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
+  backdrop-filter: blur(4px);
+  border-style: none;
+
+}
+.blockImage7
+{
+  
+  position: absolute;
+  left: 190%;
+  top: 2902px;
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
+  backdrop-filter: blur(4px);
+  border-style: none;
+
+}
+
+.certificatesImage1
+{
+position: absolute;
+
+right: -100%;
+top: 2701px; 
+width: 500px;
+opacity: 0.7;
+}
+
+.blockImage8
+{
+  
+  position: absolute;
+  left: 190%;
+  top: 3255px; 
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
+  backdrop-filter: blur(4px);
+  border-style: none;
+
+}
+
+.certificatesImage2
+{
+position: absolute;
+
+right: -100%;
+
+top: 3051px; 
+width: 500px;
+opacity: 0.7;
+}
+
+
+/* certificates section end */
+
+
+
+.certificatesImage0:hover, .certificatesImage1:hover,.certificatesImage2:hover
 {
   
 opacity: 1;
@@ -216,7 +489,7 @@ padding-top: 5%;
 }
 
 
- .projectsText, .contaktText 
+ .projectsText, .certificatesText 
 {
     color: rgb(218, 218, 218);
     font-size: 20px; 
@@ -227,9 +500,10 @@ padding-top: 5%;
 {
   color: rgb(255, 255, 255);
     font-size: 23px; 
+
 }
 
-.projectsText--scrolling, .contaktText--scrolling
+.projectsText--scrolling, .certificatesText--scrolling
 {
     color: rgb(255, 255, 255);
     font-size: 23px;
@@ -239,6 +513,5 @@ padding-top: 5%;
 {
   color: rgb(218, 218, 218);
   font-size: 20px; 
+  
 }
-
-

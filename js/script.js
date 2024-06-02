@@ -4,7 +4,7 @@ function ScrollMenu()
   
     this.aboutMeText =  () =>
     {
-        this.contaktText();
+        this.certificatesText();
         this.projectsText();
 window.addEventListener("scroll", () => {
     let scroll = window.pageYOffset || document.documentElement.scrollaboutMeText;
@@ -13,7 +13,7 @@ window.addEventListener("scroll", () => {
     }
     else {
     document.querySelector(".aboutMeText").classList.remove("aboutMeText--scrolling");
-    document.querySelector(".projectsText").classList.remove("projectsText--scrolling");
+  
     }  
     });
     }
@@ -21,40 +21,87 @@ window.addEventListener("scroll", () => {
     {
        
         window.addEventListener("scroll", () => {
-            let scroll = window.pageYOffset || document.documentElement.scrollprojectsText;
+             scroll = window.pageYOffset || document.documentElement.scrollprojectsText;
 
      if(scroll >=140)
         {
             document.querySelector(".projectsText").classList.add("projectsText--scrolling");
         } 
-    
-    else {
+        else
+        {
+            document.querySelector(".projectsText").classList.remove("projectsText--scrolling");
+        }
+
+        if(scroll >=2000)   {
   
     document.querySelector(".projectsText").classList.remove("projectsText--scrolling");
-    } ;
+    }
+   
     })
 
     }
 
-    this.contaktText=  () =>
+    this.certificatesText=  () =>
     {
      window.addEventListener("scroll", () => {
-        let scroll = window.pageYOffset || document.documentElement.scrollcontaktText;
+         scroll = window.pageYOffset || document.documentElement.scrollcertificatesText;
 
-     if(scroll >= 170)
+     if(scroll >= 2000)
         {
-            document.querySelector(".contaktText").classList.add("contaktText--scrolling");
+            document.querySelector(".certificatesText").classList.add("certificatesText--scrolling");
         } 
-    
-    else {
+        else
+        {
+        document.querySelector(".certificatesText").classList.remove("certificatesText--scrolling");
+        }
+        if(scroll >=2500) {
   
-    document.querySelector(".contaktText").classList.remove("contaktText--scrolling");
+    document.querySelector(".certificatesText").classList.remove("certificatesText--scrolling");
     }
+  
     });   
     }
 }
 
 let scrollMenuResult = new ScrollMenu();
-
-
 scrollMenuResult.aboutMeText();
+
+
+
+function ConsoleLog()
+
+{
+
+    
+    this.consoleLogNextText =  () =>
+        {
+            this.consoleLogText = document.querySelector(".consoleLog");
+            this.consoleLogText.innerHTML = "I'm coding your ideas for online success.";
+
+        
+            setInterval(() =>{
+         this.consoleLogText = document.querySelector(".consoleLog");
+                this.consoleLogText.innerHTML = "I'm coding your ideas for online success.";
+            
+            
+            },9000)
+          
+setInterval(()=>{
+ 
+    this.consoleLogText.innerHTML = `<a href="mailto:contact@kamildziuk.pl"> contact@kamildziuk.pl</a>`;
+
+
+},4000)
+setInterval(() =>{
+   
+    this.consoleLogText.innerHTML = `  <a  href=""onclick="window.location.href='tel:668573034'"> +48 668 573 034</a>`;
+
+ 
+},7000)
+}
+};
+
+let test = new ConsoleLog();
+
+
+test.consoleLogNextText();

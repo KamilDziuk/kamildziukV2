@@ -140,7 +140,7 @@ right: 10%;
 top: 20%;
 width: 40%;
 text-align: right;
-z-index: 3;
+
 }
 
 #certificatesPosition
@@ -502,7 +502,7 @@ padding-top: 5%;
     font-size: 23px; 
 
 }
-
+/* scrolling start  */
 .projectsText--scrolling, .certificatesText--scrolling
 {
     color: rgb(255, 255, 255);
@@ -514,4 +514,195 @@ padding-top: 5%;
   color: rgb(218, 218, 218);
   font-size: 20px; 
   
+}
+
+/* scrolling end*/
+
+@media (max-width: 1300px)
+{
+  h3
+  {
+  
+  font-size: 12px !important;   
+
+  }
+
+  .aboutMeTextHead
+  {
+    font-size: 12px !important; 
+  
+  }
+
+  .bi
+{
+
+width: 24px;
+height: 24px;
+}
+
+
+.blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
+{
+  left: 180%;
+}
+}
+
+
+@media (max-width: 1150px)
+{
+  #head
+  {
+   
+  position: absolute;
+ 
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  .bi-github
+  {
+    left: 20%;
+  }
+  h3
+{
+  display:flex;
+font-size: 17px;   
+padding-top: 5%;
+}
+
+#aboutMe
+{
+position: absolute;
+
+top: 70%;
+width: 50%;
+text-align: left;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+#portfolio
+{
+
+position: absolute; 
+top: 25% !important; 
+width: 200px;
+height: 100px;
+left: 45%;
+transform: translate(-50%, -50%);
+}
+
+#certificates
+{
+
+position: absolute; 
+top: 75%; 
+width: 200px;
+height: 200px;
+left: 45%;
+transform: translate(-50%, -50%);
+}
+
+.blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
+{
+  left: 155%;
+}
+}
+
+
+@media (max-width: 670px)
+{
+  #head
+  {
+   
+  position: absolute;
+ 
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  .bi-github
+  {
+    left: 30%;
+  }
+  h3
+{
+  display:flex;
+font-size: 17px;   
+padding-top: 5%;
+}
+
+#aboutMe
+{
+position: absolute;
+
+top: 70%;
+width: 50%;
+text-align: left;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+#portfolio
+{
+
+position: absolute; 
+top: 35% !important; 
+left:45%;
+transform: translate(-50%, -50%);
+}
+
+#certificates
+{
+
+position: absolute; 
+top: 80%; 
+
+left:45%;
+transform: translate(-50%, -50%);
+}
+
+
+
+}
+@media (max-width: 590px)
+{
+
+#aboutMe
+{
+
+top: 70%;
+
+
+
+}
+.blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
+{
+  left: 145%;
+}
+#portfolio
+{
+  left:40.5%;
+  transform: translate(-50%, -50%);
+}
+#certificates
+{
+  left:40.5%;
+  transform: translate(-50%, -50%);
+}
+
+h1
+{
+  font-size: 25px;  
+}
+h2
+{
+  font-size: 25px;  
+}
+
+
 }

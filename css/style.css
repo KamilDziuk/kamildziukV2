@@ -612,7 +612,7 @@ transform: translate(-50%, -50%);
 }
 
 
-@media (max-width: 670px)
+@media (max-width: 820px)
 {
   #head
   {
@@ -620,13 +620,13 @@ transform: translate(-50%, -50%);
   position: absolute;
  
   top: 20%;
-  left: 50%;
+  width: 70%;
   transform: translate(-50%, -50%);
   }
 
   .bi-github
   {
-    left: 30%;
+    left: 20%;
   }
   h3
 {
@@ -642,7 +642,7 @@ position: absolute;
 top: 70%;
 width: 50%;
 text-align: left;
-left: 50%;
+width: 70%;
 transform: translate(-50%, -50%);
 
 }
@@ -672,12 +672,23 @@ transform: translate(-50%, -50%);
 @media (max-width: 590px)
 {
 
+
+  #head
+  {
+
+    width: 95%;
+  }
+
+
+
+
+
 #aboutMe
 {
 
 top: 70%;
 
-
+width: 95%;
 
 }
 .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
@@ -706,3 +717,15 @@ h2
 
 
 }
+
+
+
+@media (max-width: 320px)
+{
+
+  .bi-github
+  {
+    left: 30%;
+  }
+}
+

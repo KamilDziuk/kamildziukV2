@@ -693,7 +693,7 @@ width: 95%;
 }
 .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
 {
-  left: 145%;
+  left: 100%;
 }
 #portfolio
 {
@@ -714,7 +714,15 @@ h2
 {
   font-size: 25px;  
 }
+.consoleLog
+{
+  font-size: 10px;
+}
 
+h3
+{
+  font-size: 10px !important;
+}
 
 }
 

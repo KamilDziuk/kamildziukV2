@@ -686,22 +686,24 @@ transform: translate(-50%, -50%);
 #aboutMe
 {
 
-top: 70%;
+top: 65%;
 
 width: 95%;
 
 }
 .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
 {
-  left: 100%;
+  left: 120%;
 }
 #portfolio
 {
+  top: 10% !important;
   left:40.5%;
   transform: translate(-50%, -50%);
 }
 #certificates
 {
+  top: 55% !important;
   left:40.5%;
   transform: translate(-50%, -50%);
 }
@@ -728,12 +730,25 @@ h3
 
 
 
-@media (max-width: 320px)
+@media (max-width: 420px)
 {
 
   .bi-github
   {
     left: 30%;
   }
+
+  #portfolio
+  {
+    top: 20% !important;
+ 
+  }
+
+
+  #certificates
+{
+  top: 65% !important;
+
+}
 }
 

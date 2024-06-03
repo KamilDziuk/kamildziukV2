@@ -797,7 +797,7 @@ h3
 
   #certificates
 {
-  top: 75% !important;
+  top: 55% !important;
 
 }
 }
@@ -813,6 +813,11 @@ h3
 }
 @media (max-width: 370px)
 {
+
+  #aboutMe
+  {
+    top:58.5%;
+  }
   .bi-github
   {
     left: 30%;

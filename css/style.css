@@ -575,7 +575,7 @@ padding-top: 5%;
 {
 position: absolute;
 
-top: 70%;
+top: 60%;
 width: 50%;
 text-align: left;
 left: 50%;
@@ -651,7 +651,7 @@ padding-top: 5%;
 {
 position: absolute;
 
-top: 70%;
+top: 60%;
 width: 50%;
 text-align: left;
 width: 70%;
@@ -720,7 +720,7 @@ transform: translate(-50%, -50%);
 #aboutMe
 {
 
-top: 65%;
+top: 60%;
 
 width: 95%;
 
@@ -777,7 +777,10 @@ h3
   
     margin-top: -70%;
   }
-  
+  #aboutMe
+  {
+    top:58%;
+  }
 
 }
 @media (max-width: 480px)
@@ -797,7 +800,7 @@ h3
 
   #certificates
 {
-  top: 55% !important;
+  top: 75% !important;
 
 }
 }
@@ -816,7 +819,7 @@ h3
 
   #aboutMe
   {
-    top:58.5%;
+    top:57%;
   }
   .bi-github
   {

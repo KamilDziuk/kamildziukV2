@@ -693,7 +693,7 @@ width: 95%;
 }
 .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
 {
-  left: 120%;
+  left: 100%;
 }
 #portfolio
 {
@@ -740,7 +740,7 @@ h3
 
   #portfolio
   {
-    top: 20% !important;
+    top: 25% !important;
  
   }
 

@@ -730,12 +730,12 @@ h3
 
 
 
-@media (max-width: 420px)
+@media (max-width: 480px)
 {
 
   .bi-github
   {
-    left: 30%;
+    left: 20%;
   }
 
   #portfolio
@@ -752,3 +752,10 @@ h3
 }
 }
 
+@media (max-width: 370px)
+{
+  .bi-github
+  {
+    left: 30%;
+  }
+}

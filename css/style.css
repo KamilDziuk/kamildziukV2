@@ -588,26 +588,38 @@ transform: translate(-50%, -50%);
 
 position: absolute; 
 top: 25% !important; 
-width: 200px;
-height: 100px;
-left: 45%;
+
+left: 50%;
 transform: translate(-50%, -50%);
 }
+.portfolioImage0,.portfolioImage1,.portfolioImage2,.portfolioImage3,.portfolioImage4,.portfolioImage5,.certificatesImage0,.certificatesImage1,.certificatesImage2
+{
 
+  left: 50%;
+transform: translate(-50%, -50%);
+}
 #certificates
 {
 
 position: absolute; 
 top: 75%; 
-width: 200px;
-height: 200px;
-left: 45%;
+left: 50%;
 transform: translate(-50%, -50%);
 }
 
 .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
 {
-  left: 155%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -20%;
+}
+}
+@media (max-width: 860px)
+{
+  .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
+{
+
+  margin-top: -25%;
 }
 }
 
@@ -647,7 +659,7 @@ transform: translate(-50%, -50%);
 
 }
 
-#portfolio
+/* #portfolio
 {
 
 position: absolute; 
@@ -664,9 +676,31 @@ top: 80%;
 
 left:45%;
 transform: translate(-50%, -50%);
+} */
+
+
+
 }
 
 
+@media (max-width: 710px)
+{
+  .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
+{
+
+  margin-top: -30%;
+}
+
+}
+
+
+@media (max-width: 600px)
+{
+  .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
+{
+
+  margin-top: -35%;
+}
 
 }
 @media (max-width: 590px)
@@ -691,21 +725,11 @@ top: 65%;
 width: 95%;
 
 }
-.blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
+
+.portfolioImage0,.portfolioImage1,.portfolioImage2,.portfolioImage3,.portfolioImage4,.portfolioImage5,.certificatesImage0,.certificatesImage1,.certificatesImage2
 {
-  left: 100%;
-}
-#portfolio
-{
-  top: 10% !important;
-  left:40.5%;
-  transform: translate(-50%, -50%);
-}
-#certificates
-{
-  top: 55% !important;
-  left:40.5%;
-  transform: translate(-50%, -50%);
+
+max-width: 320px;
 }
 
 h1
@@ -726,10 +750,36 @@ h3
   font-size: 10px !important;
 }
 
+
+.blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
+{
+
+  margin-top: -52%;
 }
 
+}
 
+@media (max-width: 500px)
+{
+  .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
+  {
+  
+    margin-top: -60%;
+  }
+  
 
+}
+
+@media (max-width: 450px)
+{
+  .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
+  {
+  
+    margin-top: -70%;
+  }
+  
+
+}
 @media (max-width: 480px)
 {
 
@@ -740,7 +790,7 @@ h3
 
   #portfolio
   {
-    top: 35% !important;
+    top: 20% !important;
  
   }
 
@@ -751,11 +801,30 @@ h3
 
 }
 }
+@media (max-width: 400px)
+{
+  .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
+  {
+  
+    margin-top: -80%;
+  }
+  
 
+}
 @media (max-width: 370px)
 {
   .bi-github
   {
     left: 30%;
   }
+}
+@media (max-width: 320px)
+{
+  .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
+  {
+  
+    margin-top: -95%;
+  }
+  
+
 }

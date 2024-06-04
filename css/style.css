@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     z-index: 3;
-  
+    
 }
 html,
 body{
@@ -560,10 +560,10 @@ transform: translate(-50%, -50%);
 
 @media (max-width: 750px)
 {
-.consoleLogPosition
+/* .consoleLogPosition
 {
   width: 500px;
-}
+} */
 
 .sectionOptions
 {
@@ -624,12 +624,12 @@ left: 30%;
   display: none;
 }
 
-.consoleLogPosition
+/* .consoleLogPosition
 {
   
   width: 500px;
 
-}
+} */
 
 }
 
@@ -697,14 +697,14 @@ font-size: 25px
 @media (max-width: 590px)
 {
 
-  .consoleLogPosition
+  /* .consoleLogPosition
   {
 
     top: 100px;
     width: 450px;
     left: 56%;
 transform: translate(-50%, -50%);
-  }
+  } */
   
 /* Portfolio Image start */
 .portfolioImage0 {
@@ -804,7 +804,7 @@ transform: translate(-50%, -50%);
 
 {
 
-  .consoleLogPosition
+  /* .consoleLogPosition
 {
 
  
@@ -812,7 +812,7 @@ transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
 
 
-}
+} */
 
 
   .bi-github
@@ -861,7 +861,7 @@ font-size: 20px
 
 
 @media (max-width: 370px) {
-.consoleLogPosition
+/* .consoleLogPosition
 {
 
   top: 100px;
@@ -870,7 +870,7 @@ font-size: 20px
 transform: translate(-50%, -50%);
 
 
-}
+} */
 
 .bi-github
 {

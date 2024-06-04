@@ -442,10 +442,7 @@ height: 24px;
 }
 
 
-.blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6
-{
-  left: 180%;
-}
+
 }
 
 
@@ -535,17 +532,10 @@ transform: translate(-50%, -50%);
 {
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: -20%;
+  margin-top: -100px;
 }
 }
-@media (max-width: 860px)
-{
-  .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6
-{
 
-  margin-top: -25%;
-}
-}
 
 
 @media (max-width: 820px)
@@ -558,26 +548,10 @@ transform: translate(-50%, -50%);
 
 
 
-
-/* #portfolio
+/* .consoleLog
 {
-
-position: absolute; 
-top: 35% !important; 
-left:45%;
-transform: translate(-50%, -50%);
-}
-
-#certificates
-{
-
-position: absolute; 
-top: 80%; 
-
-left:45%;
-transform: translate(-50%, -50%);
+  width: 300px;
 } */
-
 
 
 }
@@ -585,11 +559,7 @@ transform: translate(-50%, -50%);
 
 @media (max-width: 710px)
 {
-  .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6, .blockImage7,.blockImage8, .blockImage9, .blockImage10, .blockImage11
-{
 
-  margin-top: -30%;
-}
 #portfolio
 {
 
@@ -635,51 +605,9 @@ left: 30%;
 {
 
 
-/* Block Image start */
-.blockImage0
-{
-
-  width: 100px;
-
-}
-
-.blockImage1
-{
-  
-  top: 300px;
-
-}
-.blockImage2
-{
-
-  top: 600px;
-
-}
-
-.blockImage3
-{
-
-  top: 900px;
-
-}
-
-.blockImage4
-{
-
-  top: 1200px;
-
-}
-
-.blockImage5
-{
-
-  top: 1500px;
- 
-}
 
 
 
-/* /* Block Image end */
   
 
 
@@ -716,10 +644,7 @@ top: 56%;
 
 }
 
-h3
-{
-  font-size: 10px !important;
-}
+
 }
 @media (max-width: 600px)
 {
@@ -747,14 +672,89 @@ font-size: 25px
 {
 
 
-.portfolioImage0,.portfolioImage1,.portfolioImage2,.portfolioImage3,.portfolioImage4,.portfolioImage5,.certificatesImage0,.certificatesImage1,.certificatesImage2
-{
+/* Portfolio Image start */
+.portfolioImage0 {
 
-max-width: 310px;
+  top: 0;
+  width: 300px;
+
 }
 
+.portfolioImage1 {
+  
+  top: 180px; 
+  width: 300px;
+  
+}
+
+.portfolioImage2 {
+ 
+  top: 360px; 
+  width: 300px;
+ 
+}
+.portfolioImage3 {
+  width: 300px;
+  top: 540px; 
+ 
+}
+
+.portfolioImage4 {
+
+  top: 720px; 
+  width: 300px;
+  
+}
+.portfolioImage5 {
+  
+  top: 900px; 
+  width: 300px;
+ 
+}
+
+/* Portfolio Image end */
 
 
+/* Block Image start */
+.blockImage0 {
+
+  top: 50px;
+  
+
+}
+
+.blockImage1 {
+  
+  top: 230px; 
+
+  
+}
+
+.blockImage2 {
+ 
+  top: 410px; 
+  
+ 
+}
+.blockImage3 {
+
+  top: 590px; 
+ 
+}
+
+.blockImage4 {
+
+  top: 770px; 
+  
+  
+}
+.blockImage5 {
+  
+  top: 950px; 
+
+ 
+}
+/* Block Image end*/
 }
 
 @media (max-width: 500px)
@@ -807,7 +807,10 @@ font-size: 20px
 }
 @media (max-width: 370px)
 {
-
+  .bi-github
+  {
+  left: 47%;
+  }
 
 }
 @media (max-width: 320px)

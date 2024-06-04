@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     z-index: 3;
+  
 }
 html,
 body{
@@ -489,7 +490,7 @@ transform: translate(-50%, -50%);
   top: 140px;
   width: 100%;
   position: absolute;
-  left: 55%;
+  left: 50%;
 transform: translate(-50%, -50%);
 
 }
@@ -557,6 +558,29 @@ transform: translate(-50%, -50%);
 }
 
 
+@media (max-width: 750px)
+{
+.consoleLogPosition
+{
+  width: 500px;
+}
+
+.sectionOptions
+{
+  top: 196px;
+}
+
+#portfolio
+{
+
+
+
+top: 105% !important; 
+
+}
+
+
+}
 @media (max-width: 710px)
 {
 
@@ -582,6 +606,7 @@ top: 56%;
 
 }
 
+
 .bi-github
 {
 left: 30%;
@@ -599,21 +624,22 @@ left: 30%;
   display: none;
 }
 
+.consoleLogPosition
+{
+  
+  width: 500px;
+
 }
 
-@media (max-width: 610px)
+}
+
+@media (max-width: 625px)
 {
-
-
-
-
-
-  
 
 
 #portfolio
 {
-  top: 94% !important; 
+  top: 96% !important; 
 }
 
 
@@ -671,7 +697,15 @@ font-size: 25px
 @media (max-width: 590px)
 {
 
+  .consoleLogPosition
+  {
 
+    top: 100px;
+    width: 450px;
+    left: 56%;
+transform: translate(-50%, -50%);
+  }
+  
 /* Portfolio Image start */
 .portfolioImage0 {
 
@@ -755,31 +789,39 @@ font-size: 25px
  
 }
 /* Block Image end*/
-}
 
-@media (max-width: 500px)
+
+#portfolio
 {
-
+  top: 85% !important; 
+}
 
 }
+
+
 
 @media (max-width: 450px)
+
 {
+
+  .consoleLogPosition
+{
+
+ 
+  left: 80% !important;
+transform: translate(-50%, -50%);
+
+
+}
+
+
   .bi-github
   {
   left: 40%;
   }
 
 }
-@media (max-width: 480px)
-{
 
-
-
-
-
-
-}
 @media (max-width: 400px)
 {
 
@@ -804,17 +846,40 @@ font-size: 20px
   top:60%;
 }
 
-}
-@media (max-width: 370px)
-{
-  .bi-github
-  {
-  left: 47%;
-  }
-
-}
-@media (max-width: 320px)
+#portfolio
 {
 
+
+
+  top: 90% !important; 
+
+}
+
+}
+
+
+
+
+@media (max-width: 370px) {
+.consoleLogPosition
+{
+
+  top: 100px;
+  width: 300px;
+  left: 50% !important;
+transform: translate(-50%, -50%);
+
+
+}
+
+.bi-github
+{
+left: 47%;
+}
+
+#portfolio
+{
+  top: 90% !important; 
+}
 
 }

@@ -105,3 +105,35 @@ let test = new ConsoleLog();
 
 
 test.consoleLogNextText();
+
+
+// Bar and bar icone start
+
+function Bar()
+{
+
+this.barButton = document.querySelector(".barButton");
+this.menu = document.querySelector(".menu");
+
+this.menu.style.display = "none";
+this.openBar = () =>
+    {
+         return this.barButton.addEventListener("click", () =>
+        {
+
+            this.menu.style.display = "block";
+        })
+    }
+
+}
+
+let barResult = new Bar();
+
+    barResult.openBar();
+
+
+
+
+
+
+// Bar and bar icone end

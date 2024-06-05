@@ -624,6 +624,44 @@ left: 55%;
   display: none;
 }
 
+.bar
+{
+  position: fixed;
+  background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
+  backdrop-filter: blur(4px);
+  border-style: none;
+  top: 0;
+  width: 100%;
+  height:10% ;
+  z-index: 50;
+}
+
+.menu
+{
+  position: fixed;
+background-color: #ffffffc2;
+  backdrop-filter: blur(9px) ;
+  border-style: none;
+  top: 80%;
+  width: 100%;
+  height:100px ;
+  z-index: 60 !important;
+}
+ /* Bar and bar icone start */
+.barButton
+{
+  top: 30%;
+  position: fixed;
+  right: 10%;
+  width: 5%;
+  height:40% ;
+}
+
+.fa-bars
+{
+font-size: 24px;
+}
+ /* Bar and bar icone end */
 .consoleLogPosition
 {
   

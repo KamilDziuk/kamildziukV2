@@ -114,14 +114,27 @@ function Bar()
 
 this.barButton = document.querySelector(".barButton");
 this.menu = document.querySelector(".menu");
+this.optionsMenu = document.querySelector(".optionsMenu");
 
+this.optionsMenu.style.display = "none";
 this.menu.style.display = "none";
 this.openBar = () =>
     {
+       
          return this.barButton.addEventListener("click", () =>
         {
-
-            this.menu.style.display = "block";
+if( this.menu.style.display == "none" || this.optionsMenu.style.display == "none")
+    {
+        this.menu.style.display = "block";
+        this.optionsMenu.style.display = "block";
+    }
+    else
+    {
+        this.menu.style.display = "none";
+        this.optionsMenu.style.display = "none";
+    }
+    
+            
         })
     }
 

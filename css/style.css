@@ -596,6 +596,7 @@ top: 95% !important;
 .sectionOptions
 {
   top: 160px;
+  left: 50%;
 }
 
 #aboutMe
@@ -608,7 +609,7 @@ top: 56%;
 
 .bi-github
 {
-left: 30%;
+left: 55%;
 }
 .aboutMeText
 {
@@ -851,10 +852,17 @@ h3
 {
   font-size: 10px !important;
 }
-  .bi-github
-  {
-  left: 40%;
-  }
+.sectionOptions
+{
+  
+  left: 50%;
+}
+
+
+.bi-github
+{
+left: 55%;
+}
 
 }
 
@@ -880,12 +888,55 @@ h3
 }
 .bi-github
 {
-left: 47%;
+left: 70%;
 }
+.sectionOptions
+{
+  
+  left: 50%;
+}
+
+
+
 
 #portfolio
 {
   top: 90% !important; 
 }
+
+}
+
+@media (max-width: 315px)
+
+{
+  h1
+  {
+font-size: 17px
+  }
+
+  h2
+  {
+   font-size: 17px
+  }
+
+  .consoleLogPosition
+{
+
+  top: 100px;
+  width: 250px;
+}
+
+.sectionOptions
+{
+  top: 150px;
+  left: 50%;
+}
+
+
+.bi-github
+{
+left: 70%;
+}
+
 
 }

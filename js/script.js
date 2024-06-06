@@ -8,13 +8,18 @@ function ScrollMenu()
         this.projectsText();
 window.addEventListener("scroll", () => {
     let scroll = window.pageYOffset || document.documentElement.scrollaboutMeText;
-    if (scroll >= 100 ) {
+    if (scroll >= 0 ) {
     document.querySelector(".aboutMeText").classList.add("aboutMeText--scrolling");
     }
+    
     else {
     document.querySelector(".aboutMeText").classList.remove("aboutMeText--scrolling");
   
     }  
+    if(scroll >=130)
+        {
+            document.querySelector(".aboutMeText").classList.remove("aboutMeText--scrolling");
+        }
     });
     }
     this.projectsText=  () =>

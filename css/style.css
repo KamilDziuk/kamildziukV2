@@ -9,14 +9,19 @@
 html,
 body{
     
-color:#ffffff8a;
+color:#ffffff;
 
 background-color: rgb(5, 5, 55);
 font-family: 'Courier New', monospace;
 
 }
 
-
+button
+{
+  padding: 2%;
+  color:#fff;
+  background-color: rgba(255, 255, 255, 0.097);
+}
 /* light Reflections start */
 .lightReflections {
   
@@ -657,6 +662,11 @@ left: 55%;
 .certificatesText
 {
   display: none;
+}
+.baseText
+{
+  display: none;
+}
 }
  /* Bar and bar icone start */
 .bar

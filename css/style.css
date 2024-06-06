@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
+
 *
 { 
   
@@ -12,7 +12,7 @@ body{
 color:#ffffff8a;
 
 background-color: rgb(5, 5, 55);
-font-family: JetBrains Mono, monospace;
+font-family: 'Courier New', monospace;
 
 }
 
@@ -403,7 +403,7 @@ padding-top: 5%;
 }
 
 
- .projectsText, .certificatesText 
+ .projectsText, .certificatesText,.baseText
 {
   color:#ffffff8a;
     font-size: 20px; 
@@ -433,7 +433,7 @@ padding-top: 5%;
 
 
 
-.projectsText:hover, .certificatesText:hover
+.projectsText:hover, .certificatesText:hover,.baseText:hover
 {
   color:#ffffff;
     font-size: 23px;

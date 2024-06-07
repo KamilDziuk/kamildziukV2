@@ -18,7 +18,7 @@ font-family: 'Courier New', monospace;
 
 .logo
 {
-  position: absolute;
+  position: fixed;
 top: 2%;
   left: 5%;
   max-width: 100px;

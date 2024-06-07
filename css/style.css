@@ -16,6 +16,17 @@ font-family: 'Courier New', monospace;
 
 }
 
+.logo
+{
+  position: absolute;
+top: 2%;
+  left: 5%;
+  max-width: 100px;
+  max-height: 100px;
+  z-index: 99;
+
+}
+
 button
 {
   padding: 2%;

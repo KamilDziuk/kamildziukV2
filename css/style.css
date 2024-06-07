@@ -84,7 +84,17 @@ button
 
   }
 
-  
+  #aboutMePosition
+  {
+    position: absolute;
+    top: 0;
+  }
+ 
+  #portfolioPosition
+  {
+    position: absolute;
+top: 300px;
+  }
   
   .lightReflectionsContainer {
     overflow-x:hidden;

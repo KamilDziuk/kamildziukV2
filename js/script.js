@@ -4,7 +4,7 @@ function ScrollMenu()
   
     this.aboutMeText =  () =>
     {
-        this.certificatesText();
+        this.offerText();
         this.projectsText();
 window.addEventListener("scroll", () => {
     let scroll = window.pageYOffset || document.documentElement.scrollaboutMeText;
@@ -46,22 +46,22 @@ window.addEventListener("scroll", () => {
 
     }
 
-    this.certificatesText=  () =>
+    this.offerText=  () =>
     {
      window.addEventListener("scroll", () => {
-         scroll = window.pageYOffset || document.documentElement.scrollcertificatesText;
+         scroll = window.pageYOffset || document.documentElement.scrollofferText;
 
-     if(scroll >= 2000)
+     if(scroll >= 2270)
         {
-            document.querySelector(".certificatesText").classList.add("certificatesText--scrolling");
+            document.querySelector(".offerText").classList.add("offerText--scrolling");
         } 
         else
         {
-        document.querySelector(".certificatesText").classList.remove("certificatesText--scrolling");
+        document.querySelector(".offerText").classList.remove("offerText--scrolling");
         }
-        if(scroll >=2500) {
+        if(scroll >=3000) {
   
-    document.querySelector(".certificatesText").classList.remove("certificatesText--scrolling");
+    document.querySelector(".offerText").classList.remove("offerText--scrolling");
     }
   
     });   

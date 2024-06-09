@@ -439,14 +439,14 @@ padding-top: 5%;
 }
 
 
- .projectsText, .certificatesText,.baseText, .offerText, .aboutMeTextHead
+ .projectsText, .certificatesText,.baseText, .offerText, .aboutMeTextHead, #offerTextMenu
 {
   color:#ffffff8a;
     font-size: 20px; 
 }
 
 
-.offerText:hover
+#offerTextMenu:hover
 {
 
   color: #fff;
@@ -454,7 +454,6 @@ padding-top: 5%;
   backdrop-filter: blur(4px);
   display: inline-block;
 }
-
 
 .aboutMeText
 {
@@ -574,7 +573,7 @@ transform: translate(-50%, -50%);
 #offer
 {
   position: absolute;
-  top: 2400px;
+  top: 2550px;
   left: 50%;
   width: 90%;
 transform: translate(-50%, -50%); 
@@ -654,7 +653,7 @@ transform: translate(-50%, -50%);
   #offer
 {
   
-  top: 2450px;
+  top: 2620px;
  
 }
 
@@ -955,7 +954,7 @@ transform: translate(-50%, -50%);
 #offer
 {
   
-  top: 1750px;
+  top: 1850px;
  
 }
 

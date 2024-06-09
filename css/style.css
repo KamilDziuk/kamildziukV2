@@ -173,6 +173,8 @@ text-align: right;
 
 }
 
+
+
 #offer
 {
   position: absolute;
@@ -184,12 +186,19 @@ text-align: right;
 }
 
 
-#certificatesPosition
 
+#cooperation
 {
   position: absolute;
-  top: 5000px;
+  right: 10%;
+  top: 3150px;
+  width: 40%;
+  padding-bottom: 5% !important;
+  text-align: right;
 }
+
+
+
 
 .aboutMeTextHead
 {
@@ -440,14 +449,14 @@ padding-top: 5%;
 }
 
 
- .projectsText, .certificatesText,.baseText, .offerText, .aboutMeTextHead, #offerTextMenu
+ .projectsText, .certificatesText,.baseText, .offerText, .aboutMeTextHead, #offerTextMenu,#cooperationTextMenu, .cooperationText
 {
   color:#ffffff8a;
     font-size: 20px; 
 }
 
 
-#offerTextMenu:hover
+#offerTextMenu:hover, #cooperationTextMenu:hover
 {
 
   color: #fff;
@@ -463,7 +472,7 @@ padding-top: 5%;
 
 }
 /* scrolling start  */
-.projectsText--scrolling, .certificatesText--scrolling, .offerText--scrolling
+.projectsText--scrolling, .offerText--scrolling, .cooperationText--scrolling
 {
   color:#ffffff;
     font-size: 23px;
@@ -479,7 +488,7 @@ padding-top: 5%;
 
 
 
-.projectsText:hover, .certificatesText:hover,.baseText:hover, #offerTextHover:hover
+.projectsText:hover,.baseText:hover, #offerTextHover:hover, #cooperationTextHover:hover
 {
   color:#ffffff;
     font-size: 23px;
@@ -517,8 +526,10 @@ width: 24px;
 height: 24px;
 }
 
-
-
+#cooperation
+{
+  top: 2700px;
+}
 }
 
 
@@ -553,7 +564,7 @@ text-align: center;
 position: absolute;
 
 top: 65.5%;
-width: 90%;
+width: 50%;
 text-align: center;
 left: 50%;
 transform: translate(-50%, -50%);
@@ -589,6 +600,15 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 
+#cooperation
+{
+  position: absolute;
+  top: 2900px;
+  left: 50%;
+  width: 90%;
+transform: translate(-50%, -50%); 
+}
+
 .sectionOptions
 {
   
@@ -621,7 +641,7 @@ transform: translate(-50%, -50%);
   margin-top: -100px;
 }
 
-.aboutMeText,.projectsText,.certificatesText,.baseText, #offerTextHover
+.aboutMeText,.projectsText,.baseText, #offerTextHover, #cooperationTextHover,.certificatesText 
 {
   display: none;
 }
@@ -637,6 +657,12 @@ transform: translate(-50%, -50%);
     left: 20%;
   }
 
+
+  #cooperation
+  {
+    position: absolute;
+    top: 3000px !important;
+  }
 
 
 /* .consoleLog
@@ -657,8 +683,10 @@ transform: translate(-50%, -50%);
   top: 2620px;
  
 }
-
-
+#cooperation
+{
+  top: 3000px; 
+}
 
 .consoleLogPosition
 {
@@ -741,7 +769,7 @@ left: 55%;
   border-style: none;
   top: 80%;
   width: 100%;
-  height:140px ;
+  height:155px ;
   z-index: 30;
 }
 
@@ -756,7 +784,7 @@ left: 55%;
 
 .optionsMenu
 {
-top: 125px;
+top: 137px;
   position: fixed;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -959,6 +987,10 @@ transform: translate(-50%, -50%);
  
 }
 
+#cooperation
+{
+  top: 2300px !important;
+}
 }
 
 
@@ -1027,6 +1059,10 @@ h3
 left: 55%;
 }
 
+#cooperation
+{
+  top: 2200px !important;
+}
 }
 
 

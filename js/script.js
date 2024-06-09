@@ -4,8 +4,10 @@ function ScrollMenu()
   
     this.aboutMeText =  () =>
     {
+        this.cooperationText();
         this.offerText();
         this.projectsText();
+     
 window.addEventListener("scroll", () => {
     let scroll = window.pageYOffset || document.documentElement.scrollaboutMeText;
     if (scroll >= 0 ) {
@@ -66,6 +68,29 @@ window.addEventListener("scroll", () => {
   
     });   
     }
+
+    this.cooperationText=  () =>
+        {
+         window.addEventListener("scroll", () => {
+             scroll = window.pageYOffset || document.documentElement.scrollcooperationText;
+    
+         if(scroll >= 3200)
+            {
+                document.querySelector(".cooperationText").classList.add("cooperationText--scrolling");
+            } 
+            else
+            {
+            document.querySelector(".cooperationText").classList.remove("cooperationText--scrolling");
+            }
+            if(scroll >=4000) {
+      
+        document.querySelector(".cooperationText").classList.remove("cooperationText--scrolling");
+        }
+      
+        });   
+        }
+
+    
 }
 
 let scrollMenuResult = new ScrollMenu();

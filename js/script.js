@@ -180,3 +180,35 @@ let barResult = new Bar();
 
 
 // Bar and bar icone end
+
+
+
+// landing start 
+
+function landing()
+{
+
+this.landing = document.querySelector("#landing");
+
+this.landing.style.display = "block";
+
+
+this.startLanding = () =>
+    {
+       setTimeout(()=>{
+
+     
+        this.landing.style.display = "none";
+
+       },1000)
+
+    }
+
+}
+
+let landingResult = new landing();
+
+landingResult.startLanding();
+
+
+// landing end 

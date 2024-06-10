@@ -16,6 +16,44 @@ font-family: 'Courier New', monospace;
 
 }
 
+/* landing start */
+#landing
+{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgb(0, 0, 0);
+  transition: background 1s 2s;
+  pointer-events:none;
+    z-index: 998;
+}
+@keyframes translate {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: 110%
+  }
+}
+
+
+/* landing start */
+
+
+.landingLogo
+{
+  position: absolute;
+  top: 50%;
+  max-width: 300px;
+  max-height: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
 .logo
 {
   position: fixed;
@@ -937,6 +975,15 @@ transform: translate(-50%, -50%);
  
 }
 
+.landingLogo
+{
+
+  max-width: 150px;
+  max-height: 150px;
+
+}
+
+
 /* Portfolio Image end */
 
 
@@ -1037,7 +1084,7 @@ font-size: 20px
 #offer
 {
   
-  top: 1755px;
+  top: 1720px !important;
  
 }
 

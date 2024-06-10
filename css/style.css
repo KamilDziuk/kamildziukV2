@@ -4,7 +4,7 @@
   
     margin: 0;
     padding: 0;
-    z-index: 3;
+
 }
 html,
 body{
@@ -449,7 +449,8 @@ padding-top: 5%;
 }
 
 
- .projectsText, .certificatesText,.baseText, .offerText, .aboutMeTextHead, #offerTextMenu,#cooperationTextMenu, .cooperationText
+ .projectsText, .certificatesText,.baseText, .offerText, .aboutMeTextHead, #offerTextMenu,#cooperationTextMenu, .cooperationText,.aboutMeText
+ 
 {
   color:#ffffff8a;
     font-size: 20px; 
@@ -465,25 +466,15 @@ padding-top: 5%;
   display: inline-block;
 }
 
-.aboutMeText
-{
-  color:#ffffff8a;
-    font-size: 23px; 
 
-}
 /* scrolling start  */
-.projectsText--scrolling, .offerText--scrolling, .cooperationText--scrolling
+.projectsText--scrolling, .offerText--scrolling, .cooperationText--scrolling,.aboutMeText--scrolling
 {
   color:#ffffff;
     font-size: 23px;
 }
 
-.aboutMeText--scrolling
-{
-  color:#ffffff;
-  font-size: 20px; 
-  
-}
+
 
 
 
@@ -515,8 +506,8 @@ padding-top: 5%;
 
   .aboutMeTextHead
   {
-    font-size: 12px !important; 
-  
+    font-size: 12px !important;   
+
   }
 
   .bi
@@ -585,7 +576,7 @@ transform: translate(-50%, -50%);
 #offer
 {
   position: absolute;
-  top: 2550px;
+  top: 2450px;
   left: 50%;
   width: 90%;
 transform: translate(-50%, -50%); 
@@ -603,7 +594,7 @@ transform: translate(-50%, -50%);
 #cooperation
 {
   position: absolute;
-  top: 2900px;
+  top: 2800px;
   left: 50%;
   width: 90%;
 transform: translate(-50%, -50%); 
@@ -661,7 +652,7 @@ transform: translate(-50%, -50%);
   #cooperation
   {
     position: absolute;
-    top: 3000px !important;
+    top: 2850px !important;
   }
 
 
@@ -680,12 +671,14 @@ transform: translate(-50%, -50%);
   #offer
 {
   
-  top: 2620px;
+  top: 2500px;
  
 }
+
 #cooperation
 {
-  top: 3000px; 
+  position: absolute;
+  top: 2880px !important;
 }
 
 .consoleLogPosition
@@ -813,6 +806,20 @@ font-size: 24px;
   
   width: 450px;
 
+}
+
+
+#offer
+{
+  
+  top: 2450px;
+ 
+}
+
+#cooperation
+{
+  position: absolute;
+  top: 2880px !important;
 }
 
 }
@@ -983,13 +990,13 @@ transform: translate(-50%, -50%);
 #offer
 {
   
-  top: 1850px;
+  top: 1750px;
  
 }
 
 #cooperation
 {
-  top: 2300px !important;
+  top: 2180px !important;
 }
 }
 
@@ -1027,6 +1034,9 @@ font-size: 20px
 
 }
 
+
+
+
 }
 
 @media (max-width: 450px)
@@ -1059,16 +1069,37 @@ h3
 left: 55%;
 }
 
+#offer
+{
+  
+  top: 1690px;
+ 
+}
+
 #cooperation
 {
-  top: 2200px !important;
+  top: 2050px !important;
 }
 }
 
 
 
 
+@media (max-width: 399px) {
 
+#offer
+{
+  
+  top: 1740px;
+ 
+}
+
+#cooperation
+{
+  top: 2130px !important;
+}
+
+}
 @media (max-width: 370px) {
 .consoleLogPosition
 {
@@ -1103,6 +1134,10 @@ left: 70%;
   top: 90% !important; 
 }
 
+#cooperation
+{
+  top: 2070px !important;
+}
 }
 
 @media (max-width: 315px)
@@ -1136,6 +1171,9 @@ font-size: 17px
 {
 left: 70%;
 }
-
+#cooperation
+{
+  top: 2100px !important;
+}
 
 }

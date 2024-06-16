@@ -549,7 +549,7 @@ text-align: center;
 #aboutMe, #offer,#cooperation
 {
   left: 39%;
-
+width: 100%;
   margin-left: -100px;
 
 }

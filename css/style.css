@@ -1,5 +1,4 @@
 
-
 *
 { 
   
@@ -58,11 +57,8 @@ font-family: 'Courier New', monospace;
 .logo
 {
   position: fixed;
-
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+top: 2%;
+  left: 5%;
   max-width: 100px;
   max-height: 100px;
   z-index: 99;
@@ -126,7 +122,17 @@ button
 
   }
 
-
+  #aboutMePosition
+  {
+    position: absolute;
+    top: 0;
+  }
+ 
+  #portfolioPosition
+  {
+    position: absolute;
+top: 300px;
+  }
   
   .lightReflectionsContainer {
     overflow-x:hidden;
@@ -194,48 +200,44 @@ padding-top: 5%;
 /* head section end */
 
 
-/* About Me section */
-#aboutMe {
-  position: relative;
-  left: 50%;
-  width: 40%;
-  text-align: right;
-  margin-top: 5px; 
-  margin-bottom: 5px;
-}
-
-/* Offer section */
-#offer {
-  position: relative;
-  left: 50%;
-  width: 40%;
-
-  text-align: right;
-  margin-top: 5px; 
-  margin-bottom: 5px;
-}
-
-/* Cooperation section */
-#cooperation {
-  position: relative;
-  left: 50%;
-  width: 40%;
-  margin-top: 5px; 
-  margin-bottom: 5px;
-  text-align: right;
-  margin-top: 5px; 
+/* about me section start */
+#aboutMe
+{
+position: absolute;
+right: 10%;
+top: 20%;
+width: 40%;
+text-align: right;
 
 }
 
-/* Portfolio section */
-#portfolio {
-  position: relative;
-  left: 10%; /* Adjust to left */
+
+
+#offer
+{
+  position: absolute;
+  right: 10%;
+  top: 2270px;
   width: 40%;
+  padding-bottom: 5% !important;
   text-align: right;
-  margin-top: 5px; 
-  margin-bottom: 5px
 }
+
+
+
+#cooperation
+{
+  position: absolute;
+  right: 10%;
+  top: 3150px;
+  width: 40%;
+  padding-bottom: 5% !important;
+  text-align: right;
+}
+
+
+
+
 .aboutMeTextHead
 {
   font-size: 20px !important; 
@@ -268,7 +270,21 @@ padding-top: 5%;
 }
 
 
+.bi-github
+{
+  
+  position: absolute;
+left: 15%;
+}
+/* me image  start */
 
+/* me image  end */
+.bi-linkedin
+{
+  
+  position: absolute;
+
+}
 
 .bi-linkedin:hover
 {
@@ -282,68 +298,67 @@ color: #ffffff;
 
 .bi
 {
-position: relative;
-  padding-right: 5px;
-  padding-left: 5px;
-padding-bottom: 5px;
-padding-top: 5px;
+padding-top: 7%;
 width: 34px;
 height: 34px;
 }
 
+/* portfolio section start */
+#portfolio
+{
 
-/* icone end */
+position: absolute; 
+top: 500px;
+left: 10%;
+width: 40%;
+text-align: right;
+}
+/* portfolio section end */
+
 
 /* Portfolio Image start */
  .portfolioImage0 {
-  position: relative;
+  position: absolute;
   right: -100%;
-  margin-top: 5px;
-  margin-bottom: -30px;
+  top: 0;
   width: 500px;
   opacity: 0.7;
 }
 
 .portfolioImage1 {
-  position: relative;
+  position: absolute;
   right: -100%;
-  margin-top: 15px;
-  margin-bottom: -30px;
+  top: 300px; 
   width: 500px;
   opacity: 0.7;
 }
 
 .portfolioImage2 {
-  position: relative;
-
+  position: absolute;
   right: -100%;
-  margin-top: 15px;
-  margin-bottom: -30px;
+  top: 600px; 
   width: 500px;
   opacity: 0.7;
 }
 .portfolioImage3 {
-  position: relative;
+  position: absolute;
   right: -100%;
-  margin-top: 15px;
-  margin-bottom: -30px;
+  top: 900px; 
   width: 500px;
   opacity: 0.7;
 }
 
 .portfolioImage4 {
-  position: relative;
+  position: absolute;
   right: -100%;
-  margin-top: 15px;
-  margin-bottom: -30px;
+  top: 1200px; 
   width: 500px;
   opacity: 0.7;
 }
 .portfolioImage5 {
-  position: relative;
+  position: absolute;
   right: -100%;
-  margin-top: 15px;
-  margin-bottom: -30px;
+  top: 1500px; 
   width: 500px;
   opacity: 0.7;
 }
@@ -353,8 +368,9 @@ height: 34px;
 /* Block Image start */
 .blockImage0
 {
-  position: relative;
-  left: 183.5%;
+  position: absolute;
+  left: 190%;
+  top: 0px;
   width: 100px;
   height: 40px;
   background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
@@ -364,8 +380,9 @@ height: 34px;
 
 .blockImage1
 {
-  position: relative;
-  left: 183.5%;
+  position: absolute;
+  left: 190%;
+  top: 300px;
   width: 100px;
   height: 40px;
   background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
@@ -374,8 +391,9 @@ height: 34px;
 }
 .blockImage2
 {
-  position: relative;
-  left: 183.5%;
+  position: absolute;
+  left: 190%;
+  top: 600px;
   width: 100px;
   height: 40px;
   background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
@@ -385,8 +403,9 @@ height: 34px;
 
 .blockImage3
 {
-  position: relative;
-  left: 183.5%;
+  position: absolute;
+  left: 190%;
+  top: 900px;
   width: 100px;
   height: 40px;
   background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
@@ -396,8 +415,9 @@ height: 34px;
 
 .blockImage4
 {
-  position: relative;
-  left: 183.5%;
+  position: absolute;
+  left: 190%;
+  top: 1200px;
   width: 100px;
   height: 40px;
   background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
@@ -407,8 +427,9 @@ height: 34px;
 
 .blockImage5
 {
-  position: relative;
-  left: 183.5%;
+  position: absolute;
+  left: 190%;
+  top: 1500px;
   width: 100px;
   height: 40px;
   background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
@@ -458,11 +479,10 @@ text-align: right;
 
 .sectionOptions
 {
-position: relative; 
+position: absolute; 
 
 width: 40%;
-margin-top: 5px; 
-margin-bottom: 5px;
+padding-top: 5%;
    
 }
 
@@ -492,6 +512,11 @@ margin-bottom: 5px;
     font-size: 23px;
 }
 
+
+
+
+
+
 .projectsText:hover,.baseText:hover, #offerTextHover:hover, #cooperationTextHover:hover
 {
   color:#ffffff;
@@ -508,190 +533,699 @@ margin-bottom: 5px;
 
 
 
-
-.barButton
+@media (max-width: 1300px)
 {
-  display: none;
+  h3
+  {
+  
+  font-size: 12px !important;   
+
+  }
+
+  .aboutMeTextHead
+  {
+    font-size: 12px !important;   
+
+  }
+
+  .bi
+{
+
+width: 24px;
+height: 24px;
 }
 
+#cooperation
+{
+  top: 2700px;
+}
+}
 
 
 @media (max-width: 1150px)
 {
-
-
   #head
   {
-position: relative;
-
-margin-bottom: 5px;
-padding-top: 100px;
-text-align: center;
-left: 35%;
-
-margin-left: -50px;
-  
+   
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   }
 
-
-  h3,h2,h1
+  .bi-github
+  {
+    left: 20%;
+  }
+  h3
 {
-
+  display:flex;
 font-size: 17px;   
-margin-top: 5px; 
-margin-bottom: 5px;
+padding-top: 5%;
 text-align: center;
 }
 
 
 
-
-#aboutMe, #offer,#cooperation
+#aboutMe
 {
-  left: 39%;
-width: 100%;
-  margin-left: -100px;
+position: absolute;
+
+top: 65.5%;
+width: 50%;
+text-align: center;
+left: 50%;
+transform: translate(-50%, -50%);
 
 }
-
-
 
 .consoleLogPosition
 {
-  margin-top: 5px; 
-margin-bottom: 5px;
-right: 3%;
-position: relative;
-
-
+  top: 140px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+transform: translate(-50%, -50%);
 
 }
 
 
+#offer
+{
+  position: absolute;
+  top: 2450px;
+  left: 50%;
+  width: 90%;
+transform: translate(-50%, -50%); 
+}
+#portfolio
+{
 
+position: absolute; 
+top: 97% !important; 
+
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#cooperation
+{
+  position: absolute;
+  top: 2800px;
+  left: 50%;
+  width: 90%;
+transform: translate(-50%, -50%); 
+}
+
+.sectionOptions
+{
+  
+  top: 200px;
+  left: 60%;
+transform: translate(-50%, -50%);
+
+}
 
 
 .portfolioImage0,.portfolioImage1,.portfolioImage2,.portfolioImage3,.portfolioImage4,.portfolioImage5
 {
 
-  max-width: 100%;
-
-position: relative;
-
-left: 50%;
-
-margin-left: -100px;
+  left: 50%;
+transform: translate(-50%, -50%);
 }
+#certificates
+{
 
+position: absolute; 
+top: 75%; 
+left: 50%;
+transform: translate(-50%, -50%);
+}
 
 .blockImage0, .blockImage1, .blockImage2,.blockImage3,.blockImage4, .blockImage5, .blockImage6
 {
- position: relative;
-
-  left: 80%;
-
-  
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -100px;
 }
 
 .aboutMeText,.projectsText,.baseText, #offerTextHover, #cooperationTextHover,.certificatesText 
 {
   display: none;
 }
+}
+
+
+
+@media (max-width: 820px)
+{
+
+  .bi-github
+  {
+    left: 20%;
+  }
+
+
+  #cooperation
+  {
+    position: absolute;
+    top: 2850px !important;
+  }
+
+
+/* .consoleLog
+{
+  width: 300px;
+} */
+
+
+}
+
+
+@media (max-width: 750px)
+{
+
+  #offer
+{
+  
+  top: 2500px;
+ 
+}
+
+#cooperation
+{
+  position: absolute;
+  top: 2880px !important;
+}
+
+.consoleLogPosition
+{
+  width: 500px;
+}
+
+.sectionOptions
+{
+  top: 196px;
+}
+
+#portfolio
+{
+
+
+
+top: 105% !important; 
+
+}
+
+
+}
+@media (max-width: 710px)
+{
+
+
+  .fa-bars
+  {
+    display: block;
+  }
+#portfolio
+{
+
+
+
+top: 95% !important; 
+
+}
+
+
+.sectionOptions
+{
+  top: 160px;
+  left: 50%;
+}
+
+#aboutMe
+{
+
+top: 56%;
+
+}
+
+
+.bi-github
+{
+left: 55%;
+}
 
 
 
  /* Bar and bar icone start */
- .bar
- {
-   position: fixed;
-   background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
-   backdrop-filter: blur(4px);
-   border-style: none;
-   top: 0;
-   width: 100%;
-   height:10% ;
-   z-index: 50;
- }
- 
- .menu
- {
-   position: fixed;
-   background-color: rgb(5, 5, 55);
-   border-style: none;
-   top: 80%;
-   width: 100%;
-   height: 200px;
-   z-index: 30;
- }
- 
- .barButton
- {
-   top: 30%;
-   position: fixed;
-   right: 10%;
-   width: 5%;
-   height:40% ;
- }
- 
- .optionsMenu
- {
- top: 150px;
-   position: fixed;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   z-index: 50;
-   line-height:20px;
- }
- #colorText
- {
-   color:#ffffff8a;
- 
- }
- #colorText:hover{
-   font-size: 19px;
-   color:#ffffff;
- }
- 
+.bar
+{
+  position: fixed;
+  background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
+  backdrop-filter: blur(4px);
+  border-style: none;
+  top: 0;
+  width: 100%;
+  height:10% ;
+  z-index: 50;
+}
+
+.menu
+{
+  position: fixed;
+  background-color: rgb(5, 5, 55);
+
+  border-style: none;
+  top: 80%;
+  width: 100%;
+  height:155px ;
+  z-index: 30;
+}
+
+.barButton
+{
+  top: 30%;
+  position: fixed;
+  right: 10%;
+  width: 5%;
+  height:40% ;
+}
+
+.optionsMenu
+{
+top: 137px;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+  line-height:20px;
+}
+#colorText
+{
+  color:#ffffff8a;
+
+}
+#colorText:hover{
+  font-size: 19px;
+  color:#ffffff;
+}
+  
+
 
 .fa-bars
 {
-  position: relative;
 font-size: 24px;
-left: 4%;
 }
  /* Bar and bar icone end */
-}
- 
-
-@media (max-width: 900px)
+.consoleLogPosition
 {
-  #aboutMe, #offer,#cooperation
-  {
-    left: 42%;
   
-    margin-left: -100px;
-  
-  }
+  width: 450px;
+
 }
 
+
+#offer
+{
+  
+  top: 2450px;
+ 
+}
+
+#cooperation
+{
+  position: absolute;
+  top: 2880px !important;
+}
+
+}
+
+@media (max-width: 625px)
+{
+
+
+#portfolio
+{
+  top: 96% !important; 
+}
+
+
+.consoleLogPosition
+{
+  top: 110px;
+}
+
+.sectionOptions
+{
+  top: 130px;
+}
+   h1
+   {
+font-size: 30px
+   }
+
+   h2
+   {
+    font-size: 30px
+   }
+
+
+  #aboutMe
+{
+
+top: 56%;
+
+}
+
+
+}
 @media (max-width: 600px)
 {
-  #aboutMe, #offer,#cooperation
+  h1
   {
-    left: 50%;
-  
-    margin-left: -100px;
-  
+font-size: 25px
   }
+
+  h2
+  {
+   font-size: 25px
+  }
+
+  .aboutMeTextHead
+  {
+    position: absolute;
+    width: 350px !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+}
+@media (max-width: 590px)
+{
+
+  .consoleLogPosition
+  {
+
+    top: 100px;
+    max-width: 450px;
+    left: 56%;
+transform: translate(-50%, -50%);
+  }
+  
+/* Portfolio Image start */
+.portfolioImage0 {
+
+  top: 0;
+  width: 300px;
+
 }
 
-@media (max-width: 430px)
-{
-  #aboutMe, #offer,#cooperation
-  {
-    left: 55%;
+.portfolioImage1 {
   
-    margin-left: -100px;
+  top: 180px; 
+  width: 300px;
+  
+}
+
+.portfolioImage2 {
+ 
+  top: 360px; 
+  width: 300px;
+ 
+}
+.portfolioImage3 {
+  width: 300px;
+  top: 540px; 
+ 
+}
+
+.portfolioImage4 {
+
+  top: 720px; 
+  width: 300px;
+  
+}
+.portfolioImage5 {
+  
+  top: 900px; 
+  width: 300px;
+ 
+}
+
+.landingLogo
+{
+
+  max-width: 150px;
+  max-height: 150px;
+
+}
+
+
+/* Portfolio Image end */
+
+
+/* Block Image start */
+.blockImage0 {
+
+  top: 50px;
+  
+
+}
+
+.blockImage1 {
+  
+  top: 230px; 
+
+  
+}
+
+.blockImage2 {
+ 
+  top: 410px; 
+  
+ 
+}
+.blockImage3 {
+
+  top: 590px; 
+ 
+}
+
+.blockImage4 {
+
+  top: 770px; 
+  
+  
+}
+.blockImage5 {
+  
+  top: 950px; 
+
+ 
+}
+/* Block Image end*/
+
+
+#portfolio
+{
+  top: 85% !important; 
+}
+
+#offer
+{
+  
+  top: 1750px;
+ 
+}
+
+#cooperation
+{
+  top: 2180px !important;
+}
+}
+
+
+@media (max-width: 400px)
+{
+
+  h1
+  {
+font-size: 20px
+  }
+
+  h2
+  {
+   font-size: 20px
+  }
+  .aboutMeTextHead
+  {
+   
+    width: 305px !important;
   
   }
+
+  #aboutMe
+{
+  top:60%;
+}
+
+#portfolio
+{
+
+
+
+  top: 85% !important; 
+
+}
+
+#offer
+{
+  
+  top: 1720px !important;
+ 
+}
+
+
+}
+
+@media (max-width: 450px)
+
+{
+
+  .consoleLogPosition
+{
+
+  top: 100px;
+  width: 350px;
+  left: 50% !important;
+transform: translate(-50%, -50%);
+
+}
+
+h3
+{
+  font-size: 10px !important;
+}
+.sectionOptions
+{
+  
+  left: 50%;
+}
+
+
+.bi-github
+{
+left: 55%;
+}
+
+#offer
+{
+  
+  top: 1690px;
+ 
+}
+
+#cooperation
+{
+  top: 2050px !important;
+}
+}
+
+
+
+
+@media (max-width: 399px) {
+
+#offer
+{
+  
+  top: 1740px;
+ 
+}
+
+#cooperation
+{
+  top: 2130px !important;
+}
+
+}
+@media (max-width: 370px) {
+.consoleLogPosition
+{
+
+  top: 100px;
+  width: 310px;
+  left: 50% !important;
+transform: translate(-50%, -50%);
+
+
+}
+
+h3
+{
+  font-size: 9px !important;
+}
+.bi-github
+{
+left: 70%;
+}
+.sectionOptions
+{
+  
+  left: 50%;
+}
+
+
+
+
+#portfolio
+{
+  top: 90% !important; 
+}
+
+#cooperation
+{
+  top: 2070px !important;
+}
+}
+
+@media (max-width: 315px)
+
+{
+  h1
+  {
+font-size: 17px
+  }
+
+  h2
+  {
+   font-size: 17px
+  }
+
+  .consoleLogPosition
+{
+
+  top: 100px;
+  width: 250px;
+}
+
+.sectionOptions
+{
+  top: 150px;
+  left: 50%;
+}
+
+
+.bi-github
+{
+left: 70%;
+}
+#cooperation
+{
+  top: 2100px !important;
+}
+
 }

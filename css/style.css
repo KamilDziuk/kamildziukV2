@@ -254,7 +254,10 @@ margin-bottom: 54px;
     padding: 5px;
     width: 34px;
     height: 34px;
+
+
 }
+
 
 /* icon end */
 
@@ -388,7 +391,11 @@ display: none;
 
 @media screen and (max-width: 1150px) {
 
-
+  h3 {
+   
+    padding-top: 0%;
+  
+}
   .logo
   {
     position: relative;

@@ -269,6 +269,33 @@ margin-bottom: 54px;
 
 }
 
+.showRepo
+{
+  position: relative;
+  color: #ffffff8a;
+  margin-top: 10px;
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.lengthRepo
+{
+  position: relative;
+  color: #ffffff;
+  padding-bottom: 0px;
+  padding-top: 15px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.showRepo p:hover
+{
+  
+  color: #ffffff;
+
+}
+
 
 /* icon end */
 
@@ -354,7 +381,7 @@ margin-bottom: 5px;
 }
 
 
-#offerTextMenu:hover, #cooperationTextMenu:hover
+#offerTextMenu:hover, #cooperationTextMenu:hover, #GitHubRESTAPI:hover
 {
 
   color: #fff;
